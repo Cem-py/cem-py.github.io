@@ -36,7 +36,7 @@ a{
 }
 
 /* home section */
-#home{
+#Home{
     display:flex ;
 flex-direction: column;
 justify-content: center;
@@ -44,25 +44,25 @@ align-items: center;
 padding: 2rem;
 border-bottom: 1px solid gray;
 }
-#home h2{
+#Home h2{
 padding-top: 5px;
 
 }
-#home img{
+#Home img{
     border-radius: 100%;
     /* tam oval hale çevirdik */
 }
-#home h2,p{
+#Home h2,p{
     text-align: center;
 }
-#home h2{
+#Home h2{
     margin-bottom: 0.50rem;
 }
-#home p{
+#Home p{
     opacity: 0.6;
     font-style: italic;
 }
-#home a{
+#Home a{
 margin-top: 1.25rem;
 background-color: #336ea2;
 padding: 0.8rem 3rem;
@@ -71,7 +71,7 @@ letter-spacing: 0.5px;
 text-align: center;
 
 }
-#home a:hover{
+#Home a:hover{
     color: #336ea2;
 background-color: white;
 border: 0.5px solid #336ea2;
@@ -106,10 +106,102 @@ background-color: white;
 .container1{
     display: flex;
     justify-content:space-evenly;
+    margin-bottom: 10rem;
 }
 .box1,.box2,.box3{
     width: 25%;
+    margin-top: 2.5rem;
 }
-.box
+.image-python{
+    width: 100%;
+    height: 200px;
+}
+.image-ansys{
+    width: 100%;
+    height: 200px;
+}
+.image-css{
+    width: 100%;
+    height: 200px;
+
+}
+
+.box1 h3{
+
+    margin-top: 2.5rem;
+}
+.box2 h3{
+
+    margin-top: 2.5rem;
+}
+.box3 h3{
+
+    margin-top: 2.5rem;
+}
+
+#baslik{
+    margin: 2.5rem;
+}
+.container3{
+    background-color: #336ea2;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.container3 h2{
+
+padding-top: 2.5rem;
+
+}
+
+.kullanici,.sifre,.email{
+    width: 100%;
+    height: 100px;
+    margin-top: 5rem;
+    
+    
+}
+
+.mesaj{
+    width: 100%;
+    height:200px ;
+    margin-top: 5rem;
+   
+}
+.container3 input{
+
+margin-top: 1rem;
+width: 40%;
+height: 50px;
+border-radius: 5px;
+border: 3px solid black;
+text-align: center ;
+}
+
+.mesaj input{
+    height: 100px;
+
+}
+
+
+.container3 textarea{
+
+width: 40%;
+height: 100px;
+border: 3px solid black;
+margin-top: 1rem;
+
+}
+
+textarea, input:hover{
+
+
+
+}
+
+
 
 
